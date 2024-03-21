@@ -1,0 +1,42 @@
+.optionsBox {
+  display: flex;
+  gap: 5px;
+}
+
+.optionsBtn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: aliceblue;
+  background-color: green;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.optionsBtn:hover {
+  background-color: darkgreen;
+}
+
+.optionsBtn.neutral {
+  background-color: blue;
+}
+
+.optionsBtn.neutral:hover {
+  background-color: darkblue;
+}
+
+.optionsBtn.bad {
+  background-color: red;
+}
+
+.optionsBtn.bad:hover {
+  background-color: rgb(215, 0, 0);
+}
+
+.optionsBtn.reset {
+  background-color: black;
+}
+
+.optionsBtn.reset:hover {
+  background-color: rgb(87, 87, 87);
+}

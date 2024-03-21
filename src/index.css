@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   line-height: 1.5;
+  background-color: lightyellow;
 }
 
 h1,
@@ -31,4 +32,13 @@ a {
 
 button {
   cursor: pointer;
+}
+
+.container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
 }

@@ -1,0 +1,22 @@
+.feedbackText {
+  font-size: 24px;
+  color: darkorange;
+  text-shadow: 1px 1px 1px lightgray;
+}
+
+.feedbackData {
+  font-size: 24px;
+  color: darkgreen;
+}
+
+.feedbackData.neutral {
+  color: blue;
+}
+
+.feedbackData.bad {
+  color: red;
+}
+
+.feedbackData.total {
+  color: black;
+}

@@ -41,7 +41,7 @@ function App() {
     Math.round((feedback.good / (total - feedback.neutral)) * 100) || 0;
 
   return (
-    <>
+    <div className="container">
       <Description />
       <Options
         total={total}
@@ -53,7 +53,7 @@ function App() {
       ) : (
         <Notification />
       )}
-    </>
+    </div>
   );
 }
 

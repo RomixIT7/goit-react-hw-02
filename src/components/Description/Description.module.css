@@ -1,0 +1,11 @@
+.title {
+  font-size: 36px;
+  color: blueviolet;
+  text-shadow: 1px 1px 1px lightgray;
+}
+
+.description {
+  font-size: 24px;
+  color: saddlebrown;
+  text-shadow: 1px 1px 1px lightgray;
+}
